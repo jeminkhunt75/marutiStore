@@ -8130,7 +8130,7 @@ ul {
   padding: 0px;
 }
 .footer-section {
-background: #222222;
+background: #fffbf7;
 position: relative;
 }
 .footer-cta {
@@ -8147,9 +8147,9 @@ padding-left: 15px;
 display: inline-block;
 }
 .cta-text h4 {
-color: #fff;
+color: #222222;
 font-size: 20px;
-font-weight: 600;
+font-weight: 300;
 margin-bottom: 2px;
 }
 .cta-text span {
@@ -8184,15 +8184,15 @@ line-height: 28px;
 .footer-social-icon {
   margin-bottom: 20px;
 }
-.footer-social-icon span {
-color: #fff;
+.footer-social-icon h3 {
+color: #222222;
 display: block;
 font-size: 20px;
-font-weight: 700;
+font-weight: 300;
 margin-bottom: 20px;
 }
 .footer-social-icon a {
-color: #fff;
+color: #222222;
 font-size: 16px;
 margin-right: 15px;
 }
@@ -8202,18 +8202,19 @@ width: 40px;
 text-align: center;
 line-height: 38px;
 border-radius: 50%;
-border: 1px solid white;
+border: 1px solid #222222;
 }
 
 .footer-social-icon i:hover {
   border-color: #e21f25;
+  color: white;
   background-color: #e21f25;
   }
 
 .footer-widget-heading h3 {
-color: #fff;
+color: #222222;
 font-size: 20px;
-font-weight: 600;
+font-weight: 300;
 margin-bottom: 40px;
 position: relative;
 }
@@ -8247,16 +8248,17 @@ overflow: hidden;
   outline: none;
 width: 100%;
 padding: 14px 28px;
-background: #2E2E2E;
+background: transparent;
 border: 1px solid #2E2E2E;
-color: #fff;
+color: #222222;
 }
 .subscribe-form button {
   position: absolute;
   right: 0;
   background: #e21f25;
   padding: 13px 20px;
-  border: 1px solid #e21f25;
+  border: 1px solid #222;
+  border-left: none;
   top: 0;
 }
 .subscribe-form button i {
@@ -8265,8 +8267,8 @@ font-size: 22px;
 transform: rotate(-6deg);
 }
 .copyright-area{
-background: #222222;
-padding: 25px 0;
+background: #fffbf7;
+padding: 0px 0 25px 0;
 }
 .copyright-text p {
 margin: 0;
