@@ -2,3 +2,67 @@
     align-content: center;
     color: white;
 }
+
+#main {
+    margin-top: 50px ;
+  }
+  
+  #main #faq .card {
+    margin-bottom: 15px;
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    outline: none;
+  }
+
+  #main #faq .btn.focus, .btn:focus {
+    box-shadow: none;
+  }
+  
+  #main #faq .card .card-header {
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #fffbf7;
+    color: #222;
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  #main #faq .card .card-header .btn-header-link:after {
+    content: "\f077";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: white;
+    color: #222222;
+    font-weight: 500;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f078";
+  }
+  
+  #main #faq .card .collapsing {
+    background: #fffbf7;
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    background: #fffbf7;
+    line-height: 30px;
+    color: #222;
+  }
