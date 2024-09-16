@@ -43,7 +43,7 @@ $(document).ready(function(){
     /*==========================
 		javaScript for sticky header
 		============================*/
-			$(".sticky-header").sticky();
+		//	$(".sticky-header").sticky();
 
     /*=================================
     Javascript for banner area carousel
