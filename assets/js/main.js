@@ -43,7 +43,7 @@ $(document).ready(function(){
     /*==========================
 		javaScript for sticky header
 		============================*/
-		//	$(".sticky-header").sticky();
+			$(".sticky-header").sticky();
 
     /*=================================
     Javascript for banner area carousel
@@ -569,13 +569,13 @@ $(document).ready(function(){
   silder.owlCarousel({
       autoplay: true,
       autoplayTimeout: 3000,
-      autoplayHoverPause: false,
+      autoplayHoverPause: true,
       items: 1,
       stagePadding: 20,
       center: true,
       nav: false,
-      margin: 50,
-      dots: true,
+      margin: 30,
+      dots: false,
       loop: true,
       responsive: {
           0: { items: 1 },
@@ -583,7 +583,32 @@ $(document).ready(function(){
           575: { items: 2 },
           768: { items: 2 },
           991: { items: 3 },
-          1200: { items: 4 }
+          1200: { items: 3 }
+      }
+  });
+});
+
+
+$(document).ready(function () {
+  var silder = $(".featured-slider-owl-carousel");
+  silder.owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      items: 1,
+      stagePadding: 20,
+      center: true,
+      nav: false,
+      margin: 30,
+      dots: false,
+      loop: true,
+      responsive: {
+          0: { items: 1 },
+          480: { items: 2 },
+          575: { items: 2 },
+          768: { items: 2 },
+          991: { items: 3 },
+          1200: { items: 3 }
       }
   });
 });
