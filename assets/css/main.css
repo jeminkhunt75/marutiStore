@@ -5572,7 +5572,7 @@ label {
 /* Single Product Area css
 ============================================================================================ */
 .product_image_area {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .s_Product_carousel .owl-dots {
@@ -5670,7 +5670,7 @@ label {
   width: 40px;
   line-height: 40px;
   text-align: center;
-  background: #828bb2;
+  background: #e21f25;
   border-radius: 50%;
   display: inline-block;
   color: #fff;
@@ -8400,12 +8400,12 @@ color: #878787;
   margin-bottom: 15px
 }
 
-.owl-carousel .owl-stage-outer {
+.testimonial .owl-carousel .owl-stage-outer {
   padding: 40px 10px;
   height: 380px
 }
 
-.owl-carousel .owl-item img {
+.testimonial .owl-carousel .owl-item img {
   width: 45px !important;
   height: 45px;
   border-radius: 50%;
