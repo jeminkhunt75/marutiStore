@@ -5718,7 +5718,8 @@ label {
   width: 76px;
   border: 1px solid #eeeeee;
   border-radius: 3px;
-  padding-left: 10px;
+  padding: 8px 15px;
+  font-size: 20px;
 }
 
 .product_count button {
@@ -5729,7 +5730,7 @@ label {
   cursor: pointer;
   position: absolute;
   right: 0px;
-  font-size: 14px;
+  font-size: 25px;
   color: #cccccc;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -5746,7 +5747,7 @@ label {
 }
 
 .product_count .reduced {
-  bottom: -8px;
+  bottom: -3px;
 }
 
 .product_description_area {
@@ -8913,7 +8914,7 @@ color: #878787;
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  margin-top: 0.25rem;
+  margin-top: 0.70rem;
   margin-bottom: 0.5rem;
 }
 
