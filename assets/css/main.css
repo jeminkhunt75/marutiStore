@@ -5598,7 +5598,7 @@ label {
 
 .s_product_text {
   margin-left: -15px;
-  margin-top: 65px;
+  margin-top: 0px;
 }
 
 @media (max-width: 575px) {
@@ -5653,7 +5653,7 @@ label {
   padding-top: 20px;
   border-top: 1px dotted #d5d5d5;
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .s_product_text .card_area .primary-btn {
@@ -8930,4 +8930,16 @@ color: #878787;
   border: 2px solid #e21f25;
   border-radius: 0.25rem;
   transition: all 0.3s ease-in-out;
+}
+
+.icon-p-tag {
+  padding-top: 15px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+
+.single-product button{
+  padding: 5px 10px !important;
+  margin-right: 5px;
 }
